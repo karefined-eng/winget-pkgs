@@ -1,0 +1,50 @@
+PackageIdentifier: karefined-eng.the-mainframe
+PackageVersion: 0.1.0
+PackageName: The Mainframe
+Publisher: karefined-eng
+License: MIT
+LicenseUrl: https://github.com/karefined-eng/the-mainframe/blob/main/LICENSE
+Copyright: Copyright (c) 2026 karefined-eng
+CopyrightUrl: https://github.com/karefined-eng/the-mainframe/blob/main/LICENSE
+ShortDescription: A private, local-first life management app for desktop and Android
+Description: The Mainframe is a private, local-first life management application built with Tauri v2 (Rust backend) and React + TypeScript + Tailwind CSS (frontend). It helps you manage 5 life domains: Acquisitions, Build Ideas, Certifications, Goals, and Ventures - all stored locally in SQLite with optional LAN snapshot sync.
+Moniker: the-mainframe
+Tags:
+- productivity
+- life-management
+- local-first
+- offline
+- tauri
+- rust
+- react
+ReleaseNotes: Initial release of The Mainframe v0.1.0
+ReleaseNotesUrl: https://github.com/karefined-eng/the-mainframe/releases/tag/v0.1.0
+ManifestType: defaultLocale
+ManifestVersion: 1.6.0
+---
+PackageIdentifier: karefined-eng.the-mainframe
+PackageVersion: 0.1.0
+InstallerType: msi
+Scope: machine
+InstallerUrl: https://github.com/karefined-eng/the-mainframe/releases/download/v0.1.0/The_Mainframe_0.1.0_x64_en-US.msi
+InstallerSha256: C087AC9FCDC55DBA5DDAAAADA81B8F70CA28A991C7050228546DA9A40DE53F20
+ProductCode: '{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}'
+UpgradeBehavior: install
+InstallerSwitches:
+  Silent: /quiet /norestart
+  SilentWithProgress: /passive /norestart
+ManifestType: installer
+ManifestVersion: 1.6.0
+---
+PackageIdentifier: karefined-eng.the-mainframe
+PackageVersion: 0.1.0
+InstallerType: exe
+Scope: machine
+InstallerUrl: https://github.com/karefined-eng/the-mainframe/releases/download/v0.1.0/The_Mainframe_0.1.0_x64-setup.exe
+InstallerSha256: F4C4769AE5938E49CC48DEC4447807F6E66E0799964A1FC2C7F72566FD34F935
+UpgradeBehavior: install
+InstallerSwitches:
+  Silent: /S
+  SilentWithProgress: /S
+ManifestType: installer
+ManifestVersion: 1.6.0
